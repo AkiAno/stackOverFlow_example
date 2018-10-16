@@ -17,3 +17,6 @@
 
 // 4
 Route::get('/questions', "QuestionController@index");
+
+//7
+Route::get('/questions/1', "QuestionController@show");
